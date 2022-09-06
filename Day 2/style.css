@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: radial-gradient(circle, #212223, #1c1c1d, #171718, #111112, #090909);
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  display: grid;
+  place-content: center;
+}
+
+.title {
+  font-size: 100px;
+  color: aliceblue;
+  margin-bottom: 8px;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  transition: all 0.5s;
+}
+
+a:hover {
+  transform: scale(1.1);
+}
+
+a span {
+  font-weight: 700;
+  background-color: black;
+}
+
+a img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+
+  border: 2px solid aliceblue;
+}
