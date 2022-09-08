@@ -1,6 +1,6 @@
-import { ButtonCalc } from "../ButtonCalc";
 import { Container, Keys, Result } from "./styles";
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
+import { BrunoSampaio } from "../BrunoSampaio";
 
 export function Calculator() {
   const [ inputNumber, setInputNumber ] = useState('')
@@ -170,6 +170,7 @@ export function Calculator() {
 
   return (
     <Container>
+      <BrunoSampaio />
       <Result>
         {inputNumber == '' ? 0 : inputNumber}
       </Result>

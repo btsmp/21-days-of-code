@@ -12,7 +12,7 @@ body {
   display: grid;
   height: 100vh;
   place-content: center;
-  background-color: black;
+  background-image: radial-gradient(circle, #212223, #1c1c1d, #171718, #111112, #090909);
   font-family: 'Roboto', sans-serif;
 }
 `

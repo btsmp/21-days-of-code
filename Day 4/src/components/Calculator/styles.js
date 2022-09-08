@@ -4,6 +4,8 @@ export const Container = styled.div`
   display: grid;
   padding: 10px;
   border: 1px solid gray;
+  border-radius: 10px;
+  background-color: black;
 `
 
 export const Result = styled.div`
@@ -19,6 +21,7 @@ export const Result = styled.div`
 export const Keys = styled.div`
   background-color: black;
   display: grid;
+  gap: 10px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 
   button {
