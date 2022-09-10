@@ -1,0 +1,52 @@
+/* ---- reset ---- */
+body {
+  margin: 0;
+  font: normal 75% Arial, Helvetica, sans-serif;
+  padding: 0;
+  height: 100vh;
+}
+
+canvas {
+  display: block;
+}
+
+#app {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* ---- particles.js container ---- */
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #1d1516;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+
+.title {
+  display: grid;
+  place-content: center;
+  padding-top: 20vh;
+
+}
+
+.title a {
+  color: aliceblue;
+  text-decoration: none;
+  cursor: pointer;
+
+}
+
+.title h1 {
+  opacity: 0.5;
+  font-weight: 400;
+}
+
+.title span {
+  font-weight: 700;
+}
