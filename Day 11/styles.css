@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+button,
+input,
+a {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-image: radial-gradient(circle, #212223, #1c1c1d, #171718, #111112, #090909);
+  height: 100vh;
+  display: grid;
+  place-content: center;
+}
+
+.sr-only {
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.card {
+  width: 30vw;
+  background-color: snow;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 50px;
+
+  border-radius: 10px;
+}
+
+.card h1 {
+  font-size: 40px;
+}
+
+form {
+  display: flex;
+
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+
+}
+
+.password input,
+.email input {
+  width: 100%;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.checkbox-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.options a {
+  color: gray;
+}
+
+button {
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+
+  background-image: radial-gradient(circle, #212223, #1c1c1d, #171718, #111112, #090909);
+
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
+button:hover {
+  filter: brightness(1.5);
+}
