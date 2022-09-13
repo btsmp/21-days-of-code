@@ -1,5 +1,3 @@
-# Desafio do dia 8
+# Desafio do dia 12
 
-### Um toggle dark/light mode
-
-- [Live demo](https://toggle-button-21daysofcode.netlify.app/)
+### Um galeria de fotos
