@@ -16,12 +16,9 @@ window.addEventListener("keydown", (event) => {
 
   if (allKeyPress.length == 8) {
     let points = 0;
-    allKeyPress.forEach((keyPress, index) => {
-
-
+    allKeyPress.forEach(keyPress => {
       keyPress.remove();
     });
-
     if (points == 7) {
       points = 0;
     }
